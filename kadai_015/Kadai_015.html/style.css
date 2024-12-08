@@ -31,7 +31,7 @@ h1 {
     /* フォントの種類を設定する */
     font-family: sans-serif;
     /* フォントサイズルート要素の2倍にする */
-    font-size: 40px;
+    font-size: 2.0rem;
     /* 文字間隔を設定する */
     letter-spacing: 1.2em;
     /* 影を設定する */
