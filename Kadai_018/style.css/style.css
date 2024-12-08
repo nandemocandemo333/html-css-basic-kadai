@@ -1,0 +1,18 @@
+top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px 0px;
+}
+top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline;
+}
+middle {
+    width: 800px;
+    height: 800px;
+    margin: 20px 0px;
+    background-color: #ffd9df;
+}
