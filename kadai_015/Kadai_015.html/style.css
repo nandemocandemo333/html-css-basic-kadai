@@ -1,0 +1,42 @@
+body {
+    /* フォントの種類を設定する */
+    font-family: "Arial", "Meiryo", sans-serif;
+    /* テキストを中央揃えにする */
+    text-align: center;
+}
+html {
+    /* ルート要素のフォントサイズを設定する */
+    font-size: 20px;
+}
+#basic > p {
+    /* 選択したｐ要素を太字にする */
+    font-weight: bold;
+}
+.pink {
+    /* 指定色に設定する */
+    color: rgb(255,192,203);
+}
+.blue {
+    /* 色をキーワードで設定する */
+    color: skyblue;
+}
+.google-fonts {
+    /* ここにgoogle　Fontsを設定する */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+h1 {
+    /* フォントの種類を設定する */
+    font-family: sans-serif;
+    /* フォントサイズルート要素の2倍にする */
+    font-size: 2rem;
+    /* 文字間隔を設定する */
+    letter-spacing: 1.2em;
+    /* 影を設定する */
+    text-shadow: 1px 1px 2px gray;
+    /* 実線をつける */
+    border-bottom: solid 3px rgb(115,115,114);
+
+}
