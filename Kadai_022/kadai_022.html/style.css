@@ -1,0 +1,90 @@
+h1 {
+    /* 余白を設定 */
+    margin: 0%;
+    color: rgb(255,255,255);
+}
+p {
+    margin: 0%;
+    font-size: 20px;
+}
+body {
+    margin: 0%;
+}
+a {
+    font-size: 20px;
+    color: rgb(255,255,255);    
+}
+/* 訪問済みリンクの文字色が変化するよう設定 */
+a:visited {
+    color: rgb(193,234,251);
+}
+/* カーソルを乗せたとき文字色が変化するよう設定 */
+a:hover {
+    color: rgb(245,178,168);
+}
+div {
+    display: inline-block;
+}
+/* 画面幅768px以下のときの設定 */
+@media screen and (max-width: 768px) {
+    #parent {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+header {
+    /* 下の余白を設定 */
+    padding-bottom: 20px;
+    background-color: rgb(244,79,79);
+    /* 要素を中央揃えにする */
+    text-align: center;
+}
+main {
+    /* 要素内の余白を設定 */
+    padding: 10px;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contents {
+    /* 実線で囲む */
+    border: solid 3px rgb(238,204,204);
+    /* 要素内の余白を設定 */
+    padding: 10px 15px;
+    /* 要素外の余白を設定 */
+    margin: 20px 0px;
+    text-align: center;
+    /* 幅を親要素の25%に設定 */
+    flex-basis: 25%;
+}
+/* 要素の前に記号を設定 */
+h2::before {
+    content: "●";
+    color: rgb(239,111,139)
+}
+h2 {
+    font-size: 25px;
+    /* 下線を設定 */
+    border-bottom: dotted 3px rgb(236,122,122);
+}
+/* ２番目のｐ要素内のテキストの中で１番目の文字にのみスタイル設定 */
+p:nth-child(3)::first-letter {
+    font-weight: bold;
+    color: rgb(97,206,249);
+}
+img {
+    margin: 10px 0px;
+    width: 70%;
+}
+footer {
+    background-color: rgb(244,79,79);
+    text-align: center;
+}
